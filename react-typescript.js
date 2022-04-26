@@ -22,7 +22,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.+(j|t)sx'],
+      files: ['**/*.+tsx'],
       rules: {
         '@typescript-eslint/no-floating-promises': 'off',
       },
