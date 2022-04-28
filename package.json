@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dropull",
   "description": "Dropull's Eslint config",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "main": "index.js",
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
