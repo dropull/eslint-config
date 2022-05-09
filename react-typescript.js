@@ -4,6 +4,7 @@ module.exports = {
   },
   ignorePatterns: ['**/*.d.*'],
   extends: [
+    'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
@@ -22,7 +23,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.+tsx'],
+      files: ['**/*.tsx'],
       rules: {
         '@typescript-eslint/no-floating-promises': 'off',
       },
