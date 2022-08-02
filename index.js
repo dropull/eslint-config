@@ -6,7 +6,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   rules: {
     'import/prefer-default-export': 'off',
