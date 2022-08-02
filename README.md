@@ -12,19 +12,19 @@ Four configurations are exported by this package that you can extend in your esl
 For `typescript` you need to install
 
 ```bash
-npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm install -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 ```
 
 and for `react`
 
 ```bash
-npm install eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+npm install -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 And then install our eslint config
 
 ```bash
-npm install eslint-config-dropull
+npm install -D eslint-config-dropull
 ```
 
 Now you can extend our eslint configuration and tweak it whatever you want. Look at the eslint config below in a `package.json`:
