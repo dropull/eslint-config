@@ -5,4 +5,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     './index.js',
   ],
+  rules: {
+    '@typescript-eslint/no-empty-interface': [
+      'error',
+      { allowSingleExtends: false },
+    ],
+  },
 };
