@@ -8,7 +8,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-empty-interface': [
       'error',
-      { allowSingleExtends: false },
+      { allowSingleExtends: true },
     ],
   },
 };
