@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dropull",
   "description": "Dropull's Eslint config",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
@@ -9,17 +9,17 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^43.0.2"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
-    "eslint": "^8.9.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0",
-    "typescript": "^4.7.4"
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.9.4"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
